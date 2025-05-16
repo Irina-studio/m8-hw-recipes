@@ -14,7 +14,7 @@ function MyRecipesComponent({ label, image, calories, ingredients }) {
           <li key={index}> {ingredient} </li>
         ))}
       </ul>
-      <div className="container">
+      <div className="btn1">
         <button className="btn">{calories.toFixed()} calories</button>
       </div>
     </div>

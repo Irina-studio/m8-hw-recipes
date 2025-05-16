@@ -94,13 +94,6 @@ h1 {
   text-shadow: 1px 1px 2px rgb(255, 82, 111);
 }
 
-/* button {
-  margin-top: 10px;
-  border-radius: 12px;
-  border: none;
-  background-color: #dbecc4;
-} */
-
 button {
   margin-top: 10px;
   border: none;
@@ -136,13 +129,32 @@ ul.container li::before {
   color: #a600009d;
 }
 
-.calories {
-  display: flex;
-  justify-content: center;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  list-style-type: none;
-  color: #ffffff;
-  font-size: 13px;
+@media screen and (max-width: 768px) {
+  video {
+    object-fit: none;
+    width: 100vw;
+    height: 120vh;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  img {
+    width: 280px;
+  }
+
+  .container3 {
+    padding: 10%;
+  }
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn1 {
+    display: flex;
+    justify-content: center;
+  }
 }
