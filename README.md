@@ -13,7 +13,7 @@
   <p>
 <a href="https://find-recipe-by-ingredients.netlify.app/">view my project</a>
 </p>
-<p>My project is called "Wedding-planning-checklist". In this project, you can enter a list of things that need to be done before such an important event as a wedding. You can cross out things that have already been done and completely update the list of things to do.</p>
+<p>My project "Find Recipe by Ingredients" was created using API. This is a recipe search site. You can enter any ingredients in the search field and recipes with these ingredients for cooking different recipes will be displayed.</p>
 <h2>Built with:</h2>
 <h3><img src="https://shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
